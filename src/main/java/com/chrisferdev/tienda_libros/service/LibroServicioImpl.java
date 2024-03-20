@@ -6,7 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import com.chrisferdev.tienda_libros.model.Libro;
 import com.chrisferdev.tienda_libros.repository.LibroRepositorio;
+import org.springframework.stereotype.Service;
 
+@Service
 public class LibroServicioImpl implements ILibroServicio{
 
     @Autowired
