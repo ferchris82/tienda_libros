@@ -1,8 +1,8 @@
-package com.chrisferdev.tienda_libros.service;
+package com.chrisferdev.tienda_libros.servicio;
 
 import java.util.List;
 
-import com.chrisferdev.tienda_libros.model.Libro;
+import com.chrisferdev.tienda_libros.modelo.Libro;
 
 public interface ILibroServicio {
     public List<Libro> listarLibros();

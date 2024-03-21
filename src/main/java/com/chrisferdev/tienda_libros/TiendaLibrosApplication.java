@@ -1,6 +1,6 @@
 package com.chrisferdev.tienda_libros;
 
-import com.chrisferdev.tienda_libros.view.LibroForm;
+import com.chrisferdev.tienda_libros.vista.LibroForm;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;

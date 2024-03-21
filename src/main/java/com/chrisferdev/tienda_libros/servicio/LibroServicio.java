@@ -1,15 +1,16 @@
-package com.chrisferdev.tienda_libros.service;
+package com.chrisferdev.tienda_libros.servicio;
 
 import java.util.List;
 
+import com.chrisferdev.tienda_libros.modelo.Libro;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.chrisferdev.tienda_libros.model.Libro;
-import com.chrisferdev.tienda_libros.repository.LibroRepositorio;
+
+import com.chrisferdev.tienda_libros.repositorio.LibroRepositorio;
 import org.springframework.stereotype.Service;
 
 @Service
-public class LibroServicioImpl implements ILibroServicio{
+public class LibroServicio implements ILibroServicio{
 
     @Autowired
     private LibroRepositorio libroRepositorio;
