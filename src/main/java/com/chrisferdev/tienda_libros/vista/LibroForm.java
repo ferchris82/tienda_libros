@@ -89,7 +89,7 @@ public class LibroForm extends JFrame {
             idTexto.setText(idLibro);
             String nombreLibro = 
                     tablaLibros.getModel().getValueAt(renglon, 1).toString();
-            idTexto.setText(nombreLibro);
+            libroTexto.setText(nombreLibro);
             String autor = 
                 tablaLibros.getModel().getValueAt(renglon, 2).toString();
             autorTexto.setText(autor);
